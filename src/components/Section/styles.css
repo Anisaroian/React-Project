@@ -1,0 +1,30 @@
+.first-part, .second-part {
+    border: 1px solid #f2f4fb;
+    border-radius: 20px;
+    box-shadow: 0 5px 15px 0 rgb(46 61 73 / 14%);
+    padding: 40px;
+}
+
+h1, h4 {
+    text-align: center;
+}
+
+.card-part {
+    display: flex; 
+    justify-content: space-around;
+    padding: 30px;
+}
+
+.second-card-part {
+    justify-content: center;
+    border: 2px solid #f2f4fb;
+    border-radius: 20px;
+    box-shadow: 0 5px 15px 0 rgba(32, 41, 48, 0.14);
+    padding: 40px;
+}
+
+.second-card-part:hover {
+    transform: scale(1.2);
+    transition: transform .30s,
+
+}
