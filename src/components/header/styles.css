@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Chewy&display=swap');
+
+.container{
+    display: flex;
+    justify-content: space-between;
+}
+
+ul {
+    list-style: none;
+}
+
+ul li a {
+    color: white !important;
+    text-decoration: none;
+    font-family: 'Acme', sans-serif;
+}
+
+ul li a:hover {
+    text-decoration-line: underline;
+    text-decoration-color: #AE946D;
+    text-decoration-thickness: 3px;
+}
+
+.nav_list {
+    display: flex;
+    font-size: 22px;
+    padding: 0 15px;
+}
+
+.nav_item {
+    margin-left: 45px;
+}
+
+.logo_wrapper > a > img {
+    margin-left: 40px;
+    width: 50px;
+    height: 50px;
+    padding: 10px;
+}
+
+.part-one {
+    display: flex;
+    justify-content: space-between;
+    width: 60%;
+}
+
+.header {
+    background-color: #000000;
+    color: white;
+    padding: 20px;
+    
+}
+
+.part-two {
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.search-part > input {
+    background-color: transparent;
+    border: 1px solid rgba(255,255,255,.2);
+    padding: 0.6875rem 3rem 0.875rem;
+    font-weight: 400;
+    color: #fff;
+    margin-top: 15px;
+}
+
+.icon-part > img {
+    margin-left: 30px;
+    width: 30px;
+    height: 30px;
+    margin-top: 15px;
+
+}

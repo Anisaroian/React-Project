@@ -26,5 +26,6 @@ h1, h4 {
 .second-card-part:hover {
     transform: scale(1.2);
     transition: transform .30s,
-
 }
+
+
