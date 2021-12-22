@@ -1,11 +1,31 @@
 import "./styles.css";
-import Card from '../Reusable/Card';
-import Header from "../header";
+//import Card from '../Reusable/Card';
+//import Header from "../header";
+import { useState } from "react";
 
 
 const Section = () => {
+     const [value, setValue] = useState("");
 
      return (
+
+      <div className="input-field" style={{
+         padding: "50px",
+      }}>
+
+        <input type="text" value={value} placeholder="You can write here ..." style={{
+           width: "500px",
+           height: "35px",
+           border: "1px solid #C0C0C0",
+           borderRadius: "20px",
+        }} onChange={(e) => {setValue(e.target.value)}}/>
+
+        <h2 style={{
+           color: "gray",
+        }}>{value}</h2>
+      </div>
+
+
         // <div className="container">
         //     <div className="first-part">
         //         <div>
@@ -62,9 +82,7 @@ const Section = () => {
         //         </div>
         //     </div>
         // </div>
-     <Header />
-
-     
+     //<Header />
      );
 }
 

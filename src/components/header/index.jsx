@@ -67,10 +67,6 @@ const Header = () => {
                         padding: "20px",
                         margin: "0 20px",
                     }}>
-                        {/* <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTLv45hSICwHI_Y4RPBzzL6hcUC4gqt4mLGLg&usqp=CAU" alt="chat-icon" /> */}
-                        {/* <img src="https://png.pngtree.com/png-vector/20190417/ourmid/pngtree-vector-favorite-icon-png-image_947086.jpg" alt="fav" /> */}
-                        {/* <img src="https://pngimg.com/uploads/shopping_cart/shopping_cart_PNG4.png" alt="chat-icon" /> */}
-                        {/* <img src="https://peopleshub.org/wp-content/uploads/2018/04/person-icon-white.png" alt="fav" /> */}
                         <FaComments style={{
                             color:"white",
                             height: "2rem",
