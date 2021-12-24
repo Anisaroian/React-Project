@@ -1,0 +1,24 @@
+.team-member-list {
+    list-style: none;
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 25px;
+}
+
+.team-member-list > div {
+    justify-self: center;
+}
+
+.card:hover {
+    transform: scale(1.1);
+    transition: transform .30s,
+}
+
+body {
+    background: linear-gradient(black, white, black);
+}
+
+h1 {
+    color: white;
+}
