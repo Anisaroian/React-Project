@@ -6,7 +6,7 @@ const Main = () => {
     return (
         <div className="main">
             {/* <Section />  */}
-            <Lists />
+            {/* <Lists /> */}
         </div>
     );
 }
