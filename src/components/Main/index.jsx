@@ -1,12 +1,14 @@
 import Section from "../Section";
 import Lists from "../Project";
-import "./styles.css";
+//import "./styles.css";
+//import Cart from "../Cart";
 
 const Main = () => {
     return (
         <div className="main">
             {/* <Section />  */}
-            {/* <Lists /> */}
+            <Lists />
+            {/* <Cart /> */}
         </div>
     );
 }
