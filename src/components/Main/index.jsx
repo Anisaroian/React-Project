@@ -1,5 +1,5 @@
-import Section from "../Section";
-import Lists from "../Project";
+//import Section from "../Section";
+import Lists from "../Card";
 //import "./styles.css";
 //import Cart from "../Cart";
 
