@@ -1,0 +1,9 @@
+h1 {
+    padding: 20px;
+}
+
+.task-part {
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+}

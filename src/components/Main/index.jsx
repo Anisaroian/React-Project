@@ -1,14 +1,14 @@
 //import Section from "../Section";
-import Lists from "../Card";
+//import Lists from "../Card";
 //import "./styles.css";
-//import Cart from "../Cart";
+import Project from "../Project";
 
 const Main = () => {
     return (
         <div className="main">
             {/* <Section />  */}
-            <Lists />
-            {/* <Cart /> */}
+            {/* <Lists /> */}
+            <Project />
         </div>
     );
 }
