@@ -10,7 +10,7 @@ import { FaEdit } from 'react-icons/fa';
 const Project = () => {
     const [addTaskModalVisible, setAddTaskModalVisible] = useState(false);
     const [mockTasks, setMockTasks] = useState(tasks);
-    const [editableTask, setEditableTask] = useState(mockTasks[0]);
+    const [editableTask, setEditableTask] = useState(false);
     const handleOpenAddTaskModal = () => {
         setAddTaskModalVisible(true);
     }
@@ -50,7 +50,7 @@ const Project = () => {
     }
     return (
         <div className="project-container">
-            <div className="header text-center">
+            <div className="text-center">
                 <h1 className="heading1">
                     Todo Project
                 </h1>

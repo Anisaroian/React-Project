@@ -9,6 +9,8 @@ const Section = () => {
 
      return (
 
+      // <Header />
+
       <div className="input-field" style={{
          padding: "50px",
       }}>
@@ -82,7 +84,7 @@ const Section = () => {
         //         </div>
         //     </div>
         // </div>
-     //<Header />
+    
      );
 }
 

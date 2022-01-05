@@ -1,7 +1,7 @@
 import React, { useCallback, useState } from "react";
 import { Button, Modal } from "react-bootstrap";
 import { formValuesAddTask } from "../../data/mockData";
-import FormComponent from "../EditTask/Form";
+import FormComponent from "../AddTask/Form";
 
 const AddTask = ({
     onHide,
