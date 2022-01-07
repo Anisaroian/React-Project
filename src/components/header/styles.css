@@ -10,6 +10,7 @@ ul {
     display: flex;
     justify-content: space-around;
     align-items: center;
+    background-color: #000;
     background: linear-gradient(0.25turn, #000, #A4A4A4, #000);
 }
 

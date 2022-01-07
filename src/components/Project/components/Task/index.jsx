@@ -16,7 +16,7 @@ const Task = ({
     const statusClassName = status.toLowerCase() === "done" ? "status-done" : "status-active";
     const statusBtn = status.toLowerCase() === "done" ? "Active" : "Done"
     return (
-        <Card style={{ width: '18rem' }}>
+        <Card style={{ width: '18rem' }} className="card1">
             <Card.Body>
                 <Card.Title>{title}</Card.Title>
                 <Card.Title className="must-do-text">Must do : {attachedTo}</Card.Title>

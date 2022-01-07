@@ -1,5 +1,17 @@
-h1 {
+@import url('https://fonts.googleapis.com/css2?family=Laila:wght@300&display=swap');
+
+.heading1 {
     padding: 20px;
+    font-family: 'Laila', sans-serif;
+    cursor: pointer;
+}
+
+.heading1:hover {
+    text-decoration-line: underline;
+    text-decoration-color: #AE946D;
+    text-decoration-thickness: 4px;
+    transform: scale(1.2);
+    transition: transform .40s,
 }
 
 .task-part {

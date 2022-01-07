@@ -22,7 +22,24 @@ export const tasks = [
         // date: new Date("2022-01-21"),
         status: "Active",
         attachedTo: "Tatev"
-    }
+    },
+    {
+        id: Math.random(),
+        title: "Task 4",
+        description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed quaerat porro maxime voluptates",
+        // date: new Date("2022-01-21"),
+        status: "Done",
+        attachedTo: "Svetlana"
+    },
+    {
+        id: Math.random(),
+        title: "Task 5",
+        description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed quaerat porro maxime voluptates",
+        // date: new Date("2022-01-21"),
+        status: "Active",
+        attachedTo: "Vanush"
+    },
+    
 ];
 
 
