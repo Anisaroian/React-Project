@@ -11,7 +11,8 @@ const Task = ({
     id,
     attachedTo,
     handleDeleteTask,
-    toggleStatusChange
+    toggleStatusChange,
+    editBtnOpen
 }) => {
     const statusClassName = status.toLowerCase() === "done" ? "status-done" : "status-active";
     const statusBtn = status.toLowerCase() === "done" ? "Active" : "Done"
@@ -37,7 +38,9 @@ const Task = ({
                 >
                     Delete<FaTrashAlt />
                 </Button>
-                <Button variant="warning mr-2">Edit <FaEdit /></Button>
+                <Button variant="warning mr-2"
+                    onClick={() => editBtnOpen(id)}
+                    >Edit <FaEdit /></Button>
                 <Button
                     variant={`${statusBtn === "Active" ? "success" : "primary"} `}
                     onClick={() => toggleStatusChange(id)}

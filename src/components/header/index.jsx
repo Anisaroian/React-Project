@@ -10,7 +10,7 @@ const Header = () => {
             <div className="logo_wrapper">
                 <h1 className="logo">
                     <NavLink style={{
-                        fontSize: "2.5rem",
+                        fontSize: "2rem",
                         color: "#fff",
                         textDecoration: "none",
                         fontFamily: "'Merienda', cursive", 
@@ -19,7 +19,8 @@ const Header = () => {
                     <CgFormatSlash style={{
                         fontSize: "50px",
                         marginBottom: "5px",
-                    }} /><FaGreaterThan /> </NavLink></h1>
+                    }} /><FaGreaterThan /> </NavLink>
+                </h1>
             </div>
             <div className="nav">
                 <ul className="nav_list">

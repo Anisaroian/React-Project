@@ -3,14 +3,13 @@
 .heading1 {
     padding: 20px;
     font-family: 'Laila', sans-serif;
-    cursor: pointer;
 }
 
 .heading1:hover {
     text-decoration-line: underline;
     text-decoration-color: #AE946D;
     text-decoration-thickness: 4px;
-    transform: scale(1.2);
+    transform: scale(1.1);
     transition: transform .40s,
 }
 

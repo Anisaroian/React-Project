@@ -1,6 +1,6 @@
 import React, {  useCallback, useState } from "react";
 import { Button, Modal } from "react-bootstrap";
-import { formDataEditTask } from "../../data/mockData";
+//import { formValuesAddTask } from "../../data/mockData";
 import FormComponent from "../EditTask/Form";
 
 
@@ -9,7 +9,7 @@ const EditTask = ({
     onSubmit,
     task
 }) => {
-    const [editableTask, setEditableTask] = useState(formDataEditTask);
+    const [editableTask, setEditableTask] = useState(task);
     const handleChange = useCallback((e) => {
         const { value, name } = e.target;
         setEditableTask((prevData => {
@@ -48,7 +48,7 @@ const EditTask = ({
                         type="submit"
                         onClick={() => onSubmit(editableTask)}
                     >
-                        Add Task
+                        Edit Task
                     </Button>
                     <Button
                         onClick={onHide}

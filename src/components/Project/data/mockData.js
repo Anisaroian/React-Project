@@ -77,19 +77,3 @@ export const formValuesAddTask = {
         error: null
     }
 };
-
-export const formDataEditTask = [
-    {
-        name: "title",
-        label: "Title"
-    },
-    {
-
-        name: "description",
-        label: "Description"
-    },
-    {
-        name: "attachedTo",
-        label: "Attached To"
-    }
-]

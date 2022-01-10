@@ -5,7 +5,8 @@ import "./styles.css";
 const Todo = ({
     mockTasks,
     handleDeleteTask,
-    toggleStatusChange
+    toggleStatusChange,
+    editBtnOpen
 }) => {
 
 
@@ -17,6 +18,7 @@ const Todo = ({
                     key={task.id}
                     handleDeleteTask={handleDeleteTask}
                     toggleStatusChange={toggleStatusChange}
+                    editBtnOpen = {editBtnOpen}
                 />
             ))}
         </div>

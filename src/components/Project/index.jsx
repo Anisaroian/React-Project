@@ -10,7 +10,32 @@ import { FaEdit } from 'react-icons/fa';
 const Project = () => {
     const [addTaskModalVisible, setAddTaskModalVisible] = useState(false);
     const [mockTasks, setMockTasks] = useState(tasks);
-    const [editableTask, setEditableTask] = useState(false);
+    
+    const [editableTask, setEditableTask] = useState('');
+    const handleEditTaskOpen = (id) => {
+        setEditableTask(mockTasks.filter(item => item.id === id)[0]);
+    }
+    const handleEditTaskClose = () => {
+        setEditableTask(false);
+    }
+    const editTask =  useCallback((editableTask) => {
+        const { title, description, attachedTo, status, id } = editableTask;
+        setMockTasks((prevData => {
+            const copyData = [...prevData];
+            const idx = prevData.findIndex(item => item.id === id);
+            copyData[idx] = {
+                id: id,
+                title: title.value || title,
+                description: description.value || description,
+                status: status,
+                attachedTo: attachedTo.value || attachedTo
+            }
+            return copyData;
+        }));
+        handleEditTaskClose();
+    },[]);
+
+
     const handleOpenAddTaskModal = () => {
         setAddTaskModalVisible(true);
     }
@@ -65,6 +90,7 @@ const Project = () => {
                     mockTasks={mockTasks}
                     handleDeleteTask={handleDeleteTask}
                     toggleStatusChange={toggleStatusChange}
+                    editBtnOpen={handleEditTaskOpen}
                 />
 
                 {addTaskModalVisible && <AddTask
@@ -74,6 +100,8 @@ const Project = () => {
 
                 {editableTask && <EditTask
                     task={editableTask}
+                    onHide={handleEditTaskClose}
+                    onSubmit={editTask}
                 />}
             </div>
         </div>

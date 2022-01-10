@@ -40,6 +40,7 @@ ul {
     color: #fff;
 }
 
-.logo {
-    color: white;
+.logo:hover {
+    transform: scale(1.1);
+    transition: transform .40s,
 }
