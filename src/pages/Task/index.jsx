@@ -1,10 +1,10 @@
 import React from "react";
 import Project from '../../components/Project';
 
-const ProjectPage = () => {
+const Task = () => {
     return (
         <Project />
     )
 }
 
-export default ProjectPage; 
+export default Task; 

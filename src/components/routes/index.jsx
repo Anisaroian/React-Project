@@ -17,6 +17,10 @@ export const routes = [
         element: <Project />
     },
     {
+        path: "/task",
+        element: <Project />
+    },
+    {
         path: "/not-found",
         element: <NotFound />
     },
