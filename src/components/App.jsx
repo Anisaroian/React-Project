@@ -1,6 +1,7 @@
 import Header from "./Header";
 import { Route, Routes } from "react-router-dom";
 import { routes } from './routes';
+//import Footer from "./Footer";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
           />
         })}
       </Routes>
+      {/* <Footer /> */}
     </div>
   );
 }

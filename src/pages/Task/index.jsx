@@ -1,10 +1,10 @@
 import React from "react";
-import Project from '../../components/Project';
+import Form from "../../components/FormComponent/components/Form";
 
-const Task = () => {
+const FormComponent = () => {
     return (
-        <Project />
+        <Form />
     )
 }
 
-export default Task; 
+export default FormComponent; 
