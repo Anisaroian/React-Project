@@ -1,4 +1,4 @@
-import React, { useCallback, useState } from "react";
+import React, { useCallback, useState, useEffect  } from "react";
 import { Button } from "react-bootstrap";
 import AddTask from "./components/AddTask";
 import EditTask from "./components/EditTask";
@@ -19,7 +19,7 @@ const Project = () => {
         setEditableTask(false);
     }
     const editTask =  useCallback((editableTask) => {
-        const { title, description, attachedTo, status, id } = editableTask;
+        const { title, description, attachedTo,status, id } = editableTask;
         setMockTasks((prevData => {
             const copyData = [...prevData];
             const idx = prevData.findIndex(item => item.id === id);
@@ -30,6 +30,7 @@ const Project = () => {
                 status: status,
                 attachedTo: attachedTo.value || attachedTo
             }
+            setTasksToDB(copyData);
             return copyData;
         }));
         handleEditTaskClose();
@@ -54,25 +55,50 @@ const Project = () => {
                 ...copyData[idx],
                 status
             }
+            setTasksToDB(copyData);
             return copyData;
         });
     }, []);
+
+    const setNewTaskToDB = (task) => {
+        const tasks = JSON.parse(localStorage.getItem("tasks"));
+        tasks.push(task);
+        localStorage.setItem("tasks", JSON.stringify(tasks));
+    }
+
+    const setTasksToDB = (tasks) => {
+        localStorage.setItem("tasks", JSON.stringify(tasks));
+    }
+
 
     const addTask = (formData) => {
         const { title, description, attachedTo } = formData;
         setMockTasks((prevData => {
             const copyData = [...prevData];
-            copyData.push({
+            const newTask= {
                 id: Math.random(),
                 title: title.value,
                 description: description.value,
                 status: "Active",
                 attachedTo: attachedTo.value
-            });
+            };
+
+            setNewTaskToDB(newTask);
+            copyData.push(newTask);
             return copyData;
         }));
         handleCloseAddTaskModal();
     }
+
+    useEffect(() => {
+        const tasks = localStorage.getItem("tasks");
+        if (!tasks)
+            localStorage.setItem("tasks", JSON.stringify([]));
+        else
+            setMockTasks(JSON.parse(tasks));
+
+    }, []);
+    
     return (
         <div className="project-container">
             <div className="text-center">
