@@ -27,7 +27,7 @@ ul {
 }
 
 .nav_item:hover {
-    color: black;
+    color: #A4A4A4;
     text-decoration-line: underline;
     text-decoration-color: #AE946D;
     text-decoration-thickness: 4px;

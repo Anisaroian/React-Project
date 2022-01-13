@@ -2,7 +2,8 @@ import { Navigate } from "react-router";
 import NotFound from "../../pages/404";
 import About from "../../pages/About";
 import Home from "../../pages/Home";
-import Project from "../../pages/Project"
+import Project from "../../pages/Project";
+import SingleTask from "../../pages/SingleTask";
 import Form from "../FormComponent/components/Form";
 
 export const routes = [
@@ -19,8 +20,12 @@ export const routes = [
         element: <Project />
     },
     {
-        path: "/task",
+        path: "/project2",
         element: <Form />
+    },
+    {
+        path: "/task/:task_id",
+        element: <SingleTask />
     },
     {
         path: "/not-found",

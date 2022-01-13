@@ -1,5 +1,6 @@
 import React, { useCallback, useState, useEffect  } from "react";
 import { Button } from "react-bootstrap";
+import { idGenerator } from "../helpers/globalFunctions";
 import AddTask from "./components/AddTask";
 import EditTask from "./components/EditTask";
 import Todo from "./components/ToDo";
@@ -76,7 +77,7 @@ const Project = () => {
         setMockTasks((prevData => {
             const copyData = [...prevData];
             const newTask= {
-                id: Math.random(),
+                id: idGenerator(),
                 title: title.value,
                 description: description.value,
                 status: "Active",

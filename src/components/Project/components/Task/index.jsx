@@ -1,4 +1,5 @@
 import React, { memo } from "react";
+import { Link } from "react-router-dom";
 import { Button, Card } from "react-bootstrap";
 import { FaEdit, FaTrashAlt } from "react-icons/fa";
 import "./styles.css";
@@ -19,7 +20,11 @@ const Task = ({
     return (
         <Card style={{ width: '18rem' }} className="card1">
             <Card.Body>
-                <Card.Title>{title}</Card.Title>
+                <Card.Title>
+                    <Link to={`/task/${id}`}>
+                        {title}
+                    </Link>
+                </Card.Title>
                 <Card.Title className="must-do-text">Must do : {attachedTo}</Card.Title>
                 <Card.Text>
                     {description}
