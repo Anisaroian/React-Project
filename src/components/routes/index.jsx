@@ -23,7 +23,7 @@ export const routes = [
     },
     {
         path: "/project",
-        element:<Project />
+        element: <Project />
                 
     },
     {
