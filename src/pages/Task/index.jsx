@@ -3,7 +3,9 @@ import Form from "../../components/FormComponent/components/Form";
 
 const FormComponent = () => {
     return (
-        <Form />
+        <div className="main-section">
+            <Form />
+        </div>
     )
 }
 

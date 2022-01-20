@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Myeongjo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@600&display=swap');
+
+.header-content {
+    display: flex;
+    justify-content: space-around;
+    padding: 40px;
+    margin-top: 20px;
+}
+
+.resume-content {
+    max-width: 1140px;
+	margin: 0 auto;
+}
+
+.name-content {
+    text-align: end;
+}
+
+.image-content > img {
+    width: 200px;
+    border-radius: 3% 3% 30% 3% ;
+    box-shadow:10px 10px 5px grey;  
+}
+.image-content > img:hover {
+    transform: scale(1.1);
+    transition: 1s;
+}
+
+.contact-content, .info-content {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.contact-content {
+    border: 1px solid #727272;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px grey; 
+} 
+.contact-content:hover {
+    transform: scale(1.1);
+    transition: 1s;
+}
+
+.skills-content > p > span {
+    border: 2px solid #989DA6;
+    border-radius: 10px;
+    padding: 6px;
+    background-color: #989DA6;
+    color: white; 
+}
+
+h2, .name-content  {
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+h6 {
+    font-family: 'Nanum Myeongjo', serif;
+}
+
+h5 {
+    font-family: 'Cinzel', serif;
+    text-decoration: underline;
+}
+
+
+
+

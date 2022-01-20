@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lusitana&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Vesper+Libre&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative&display=swap');
+
+.home-content {
+    position: relative;
+    background: url(../../images/back.png) no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 80vh;
+    opacity: 0.4;
+    height: calc(100vh - 210px);
+}
+
+.main-content {
+    display: flex;
+    position: absolute;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+}
+
+.home-text {
+    text-transform: uppercase;
+    font-family: 'Cinzel Decorative', cursive;
+    font-size: 5rem;
+    color: white;
+}
+
+.animation-part {
+    color: white;
+    font-family: 'Vesper Libre', serif;
+}

@@ -3,7 +3,9 @@ import Project from '../../components/Project';
 
 const ProjectPage = () => {
     return (
-        <Project />
+        <div className="main-section">
+            <Project />
+        </div>
     )
 }
 

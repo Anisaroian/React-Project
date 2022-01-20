@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=IM+Fell+English+SC&display=swap');
+
+.not-found {
+    width: 100%;
+    height: calc(100vh - 210px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    background: url(../../images/back.png) no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 80vh;
+    opacity: 0.4;
+    color: white;
+    font-family: 'IM Fell English SC', serif;
+}
+
+.error-text {
+    font-family: 'IM Fell English SC', serif;
+}

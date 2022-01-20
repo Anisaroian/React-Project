@@ -45,8 +45,14 @@ const Project = () => {
         setAddTaskModalVisible(false);
     }
     const handleDeleteTask = useCallback((id) => {
-        setMockTasks((prevData) => prevData.filter(item => item.id !== id));
+        setMockTasks((prevData) => {
+            const newTasks = prevData.filter(item => item.id !== id);
+            setTasksToDB(newTasks);
+            return newTasks;
+    });
     }, []);
+
+    
     const toggleStatusChange = useCallback((id) => {
         setMockTasks((prevData) => {
             const copyData = [...prevData];

@@ -9,8 +9,6 @@
     text-decoration-line: underline;
     text-decoration-color: #AE946D;
     text-decoration-thickness: 4px;
-    transform: scale(1.1);
-    transition: transform .40s,
 }
 
 .task-part {

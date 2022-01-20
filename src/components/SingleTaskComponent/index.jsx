@@ -12,7 +12,6 @@ const SingleTaskComponent = () => {
             setTimeout(() => {
                 const tasks = JSON.parse(localStorage.getItem('tasks'));
                 const candidate = tasks.find(task => task.id === taskId);
-                //console.log("🚀 ~ candidate", candidate)
                 resolve(candidate);
             }, 200);
         })
@@ -21,7 +20,6 @@ const SingleTaskComponent = () => {
     useEffect(() => {
         getTaskFromDB(task_id)
             .then(task => {
-                //console.log("🚀 ~ task", task)
                 setTask(task);
             });
     }, [task_id]);
@@ -30,11 +28,12 @@ const SingleTaskComponent = () => {
 
     return (
         <div className="single-task">
-            <h1>Single Task / id = {task.id}</h1>
-            <p>{task.title}</p>
-            <p>{task.description}</p>
+            <p>Task title : <span>{task.title}</span></p>
+            <p>Must do: <span>{task.attachedTo}</span></p>
+            <p>Task description : <span>{task.description}</span></p>
+            <p>Task status : <span>{task.status}</span></p> <br />
             <Link to={`/project`}>
-                <Button variant="dark">Back</Button>
+                <Button variant="dark">Go Back!</Button>
             </Link>
         </div>
     )

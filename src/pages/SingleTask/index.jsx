@@ -3,7 +3,9 @@ import SingleTaskComponent from "../../components/SingleTaskComponent";
 
 const SingleTask = () => {
     return (
-        <SingleTaskComponent />
+        <div className="main-section">
+            <SingleTaskComponent />
+        </div>
     )
 }
 

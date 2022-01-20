@@ -41,5 +41,5 @@ ul {
 
 .logo:hover {
     transform: scale(1.1);
-    transition: transform .40s,
+    transition: transform .40s;
 }

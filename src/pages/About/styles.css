@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Merienda+One&display=swap');
+
+.about-me {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 8% auto;
+    font-family: 'Merienda One', cursive;
+    height: calc(100vh- 210px);
+}
+
+.info-part{
+    text-align: center;
+    padding: 20px;
+    display: flex;
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: center;
+}
+
+.image-part {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0px 1px 0px 0px #A4A4A4;
+    border-radius: 50%;
+    height: 400px;
+    width: 400px;
+}
+
+.image-part-background {
+    height: 92%;
+    width: 92%;
+    background-image: url("../../images/me.jpeg");
+    border-radius: 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position:center ;
+}
+
+.image-part-background:hover {
+    transform: scale(1.03);
+    transition: 1s;
+}

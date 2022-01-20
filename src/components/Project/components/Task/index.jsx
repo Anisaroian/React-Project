@@ -21,7 +21,11 @@ const Task = ({
         <Card style={{ width: '18rem' }} className="card1">
             <Card.Body>
                 <Card.Title>
-                    <Link to={`/task/${id}`}>
+                    <Link to={`/task/${id}`} style={{
+                        fontFamily: "'Lora', serif",
+                        color: "black",
+                        textDecoration: "none"
+                    }}>
                         {title}
                     </Link>
                 </Card.Title>
