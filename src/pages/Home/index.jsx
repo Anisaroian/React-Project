@@ -24,6 +24,8 @@ const Home = () => {
                         2000,
                         "PHP",
                         2000,
+                        "MySQL",
+                        2000,
                         "Laravel",
                         2000,
                     ]}

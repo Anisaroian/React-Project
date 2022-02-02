@@ -27,7 +27,7 @@ export const routes = [
                 
     },
     {
-        path: "/project2",
+        path: "/form",
         element: <Form />
                 
     },

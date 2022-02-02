@@ -1,7 +1,7 @@
 import React from "react";
 import myPic from "../../images/myPic.JPG";
 import "./styles.css";
-import { FaEnvelope, FaMapMarkerAlt, FaPhoneAlt, FaLinkedin, FaFacebook, FaGithub, FaChevronLeft } from "react-icons/fa";
+import { FaEnvelope, FaMapMarkerAlt, FaPhoneAlt, FaLinkedin, FaFacebook, FaGithub, FaChevronLeft, FaTwitter, FaInstagramSquare } from "react-icons/fa";
 import { Link } from "react-router-dom";
 
 
@@ -28,14 +28,17 @@ const Resume = () => {
             </div>
             <div className="contact-content">
                 <div className="part-one">
-                <FaEnvelope /> ani.saroian@gmail.com<br />
-                    <FaPhoneAlt /> +374 (77) 88-58-64 <br />
+                    <FaEnvelope /> <a className = "link-text" target="_blank" href="mailto:ani.saroian@gmail.com" rel="noreferrer"> ani.saroian@gmail.com </a><br />
+                    <FaPhoneAlt /> <a className = "link-text" href="tel+37477885864" rel="noreferrer"> +374 (77) 88-58-64 </a><br />
                     <FaMapMarkerAlt /> Yerevan, Armenia <br />
+                    <FaTwitter /> <a className = "link-text" target="_blank" href="https://twitter.com/AniSaroian" rel="noreferrer">www.twitter.com/AniSaroian</a> <br />
                 </div>
                 <div className="part-two">
-                    <FaLinkedin /> https://www.linkedin.com/in/ani-saroian-968949228/ <br />
-                    <FaFacebook /> https://www.facebook.com/ani.saroian22/<br />
-                    <FaGithub /> https://github.com/Anisaroian<br />
+                    <FaLinkedin /> <a className = "link-text" target="_blank" href="https://www.linkedin.com/in/ani-saroian/" rel="noreferrer">www.linkedin.com/in/ani-saroian </a><br />
+                    <FaGithub /> <a className = "link-text" target="_blank" href="https://github.com/Anisaroian" rel="noreferrer">www.github.com/Anisaroian </a><br />
+                    <FaFacebook /> <a className = "link-text" target="_blank" href="https://www.facebook.com/ani.saroian22/" rel="noreferrer"> www.facebook.com/ani.saroian22 </a><br />
+                    <FaInstagramSquare /> <a className = "link-text" target="_blank"  href="https://www.instagram.com/ani.saroian/" rel="noreferrer"> www.instagram.com/ani.saroian </a><br />
+
                 </div>
             </div>
             <div className="info-content">
@@ -53,7 +56,7 @@ const Resume = () => {
                     <h2>SKILLS</h2><br />
                     <p><span>HTML</span> <span>CSS</span> <span>Bootstrap</span></p>
                     <p><span>JavaScript</span> <span>ReactJS</span>  </p>
-                    <p><span>PHP</span> <span>Laravel</span>  </p>
+                    <p><span>PHP</span> <span>MySQL</span> <span>Laravel</span>  </p>
                     
                 </div>
                 
