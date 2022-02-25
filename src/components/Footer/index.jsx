@@ -2,7 +2,7 @@ import "./styles.css";
 
 const Footer = () => {
     return (
-        <footer className="bg-dark text-center text-white">
+        <footer className="bg-dark text-center text-white link-part">
             <div className="container p-4 pb-0">
               <section className="mb-4">
                 <a className="btn btn-outline-light btn-floating m-1" href="https://www.facebook.com/ani.saroian22/" role="button"
@@ -17,11 +17,10 @@ const Footer = () => {
                   ><i className="fab fa-github"></i></a>
               </section>
             </div>
-            <div className="text-center p-3" style={{
+            <div className="text-center p-3 back"  style={{
                 backgroundColor: "rgba(0, 0, 0, 0.2)",
             }}>
               © 2020 Copyright:
-              <a href="https://tco.am/am" target="_target" rel="noreferrer" className="link"> TCO Team</a>
               <p className="footer-text">Web Full Stack trainings 07/21-01/22</p>
             </div>
     </footer>

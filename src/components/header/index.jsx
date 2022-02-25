@@ -15,7 +15,7 @@ const Header = () => {
                         textDecoration: "none",
                         fontFamily: "'Merienda', cursive", 
                     }} to="/">
-                    <FaLessThan /> TCO <FaReact style={{marginBottom: "5px"}}/>
+                    <FaLessThan /> React <FaReact style={{marginBottom: "5px"}}/>
                     <CgFormatSlash style={{
                         fontSize: "50px",
                         marginBottom: "5px",

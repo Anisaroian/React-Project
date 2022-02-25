@@ -33,8 +33,8 @@ export const routes = [
     },
     {
         path: "/task/:task_id",
-        element: <SingleTask />},
-                
+        element: <SingleTask />
+    },
     {
         path: "/not-found",
         element: <NotFound />        

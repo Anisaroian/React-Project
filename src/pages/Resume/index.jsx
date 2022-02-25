@@ -29,7 +29,7 @@ const Resume = () => {
             <div className="contact-content">
                 <div className="part-one">
                     <FaEnvelope /> <a className = "link-text" target="_blank" href="mailto:ani.saroian@gmail.com" rel="noreferrer"> ani.saroian@gmail.com </a><br />
-                    <FaPhoneAlt /> <a className = "link-text" href="tel+37477885864" rel="noreferrer"> +374 (77) 88-58-64 </a><br />
+                    <FaPhoneAlt /> <a className = "link-text" href="tel:+37477885864" rel="noreferrer"> +374 (77) 88-58-64 </a><br />
                     <FaMapMarkerAlt /> Yerevan, Armenia <br />
                     <FaTwitter /> <a className = "link-text" target="_blank" href="https://twitter.com/AniSaroian" rel="noreferrer">www.twitter.com/AniSaroian</a> <br />
                 </div>
