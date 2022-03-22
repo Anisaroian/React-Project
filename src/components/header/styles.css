@@ -8,7 +8,7 @@ ul {
 .header {
     height: 100px;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     background: linear-gradient(0.25turn, #000, #A4A4A4, #000);
 }
@@ -16,18 +16,19 @@ ul {
 .nav_list {
     display: flex;
     justify-content: space-between;
+    
 }
 
 .nav_item {
     font-size: 20px;
     margin-left: 17px;
-    color: black;
+    color: #8C8C8C;
     text-decoration: none;
     font-family: 'Merienda', cursive; 
 }
 
 .nav_item:hover {
-    color: #A4A4A4;
+    color: #8C8C8C;
     text-decoration-line: underline;
     text-decoration-color: #AE946D;
     text-decoration-thickness: 4px;

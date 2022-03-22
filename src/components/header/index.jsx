@@ -6,7 +6,7 @@ import "./styles.css";
 const Header = () => {
     const classnames = ({ isActive }) => isActive ? "nav_item active" : "nav_item";
     return (
-        <header className="header">
+        <header className="header p-5">
             <div className="logo_wrapper">
                 <h1 className="logo">
                     <NavLink style={{
@@ -27,7 +27,7 @@ const Header = () => {
                     <NavLink className={classnames} to="/">Home</NavLink>
                     <NavLink className={classnames} to="/about-me">About</NavLink>
                     <NavLink className={classnames} to="/project">Project</NavLink>
-                    <NavLink className={classnames} to="/form">Form</NavLink>
+                    {/* <NavLink className={classnames} to="/form">Form</NavLink> */}
                 </ul>
             </div>
         </header>

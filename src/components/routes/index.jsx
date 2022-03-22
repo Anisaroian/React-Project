@@ -26,11 +26,11 @@ export const routes = [
         element: <Project />
                 
     },
-    {
-        path: "/form",
-        element: <Form />
+    // {
+    //     path: "/form",
+    //     element: <Form />
                 
-    },
+    // },
     {
         path: "/task/:task_id",
         element: <SingleTask />
