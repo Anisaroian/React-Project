@@ -26,7 +26,7 @@ const Header = () => {
                 <ul className="nav_list">
                     <NavLink className={classnames} to="/">Home</NavLink>
                     <NavLink className={classnames} to="/about-me">About</NavLink>
-                    <NavLink className={classnames} to="/project">Project</NavLink>
+                    <NavLink className={classnames} to="/project">ToDo</NavLink>
                     {/* <NavLink className={classnames} to="/form">Form</NavLink> */}
                 </ul>
             </div>

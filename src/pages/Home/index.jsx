@@ -6,7 +6,7 @@ const Home = () => {
     return (
         <div className="home-content">
             <div className="main-content">
-                <h1 className="home-text">Web Full Stack Development</h1> <br /><br /><br />
+                <h1 className="home-text">Web Development</h1> <br /><br /><br />
                 <TypeAnimation
                     className="animation-part"
                     cursor={false}

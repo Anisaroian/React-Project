@@ -3,6 +3,7 @@ import "./styles.css";
 import { Button } from "react-bootstrap";
 import { Link } from "react-router-dom";
 import TypeAnimation from 'react-type-animation';
+import {FaReact}  from 'react-icons/fa';
 
 
 const About = () => {
@@ -10,7 +11,11 @@ const About = () => {
         <div className="about-me">
             <div className="info-part">
             <h1>Heey! This is my web site <br />
-                    created with React</h1> <br />
+                    created with React <FaReact style={{
+                        animationName: "react",
+                        animationDuration: "5s",
+                        animationIterationCount: "infinite",
+                        }}/> </h1> <br />
                     <TypeAnimation
                         className="type-animation-part"
                         cursor={false}
@@ -18,7 +23,7 @@ const About = () => {
                         sequence={[
                             "My name is Ani", 
                             2000,
-                            "I'm junior fullstack developer",
+                            "I'm junior frontend developer",
                             1000,
                         ]}
                         wrapper="h2"
@@ -28,7 +33,7 @@ const About = () => {
                 </Link>
             </div>
             <div className="image-part">
-                <div className="image-part-background"></div>
+                 <div className="image-part-background"></div>
             </div>
         </div>
     )

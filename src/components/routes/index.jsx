@@ -5,7 +5,7 @@ import Resume from "../../pages/Resume";
 import Home from "../../pages/Home";
 import Project from "../../pages/Project";
 import SingleTask from "../../pages/SingleTask";
-import Form from "../FormComponent/components/Form";
+//import Form from "../FormComponent/components/Form";
 
 export const routes = [
     {

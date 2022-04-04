@@ -6,7 +6,6 @@
     align-items: center;
     margin: 8% auto;
     font-family: 'Merienda One', cursive;
-    height: calc(100vh- 210px);
 }
 
 .info-part{
@@ -31,7 +30,7 @@
 .image-part-background {
     height: 92%;
     width: 92%;
-    background-image: url("../../images/me.jpeg");
+    background-image: url("../../images/computer.jpg");
     border-radius: 50%;
     background-size: cover;
     background-repeat: no-repeat;
@@ -41,4 +40,14 @@
 .image-part-background:hover {
     transform: scale(1.03);
     transition: 1s;
+}
+
+
+@keyframes react {
+    from {
+		transform: rotate(-360deg);
+	}
+	to{
+		transform: rotate(360deg);
+	}
 }

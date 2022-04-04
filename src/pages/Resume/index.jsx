@@ -22,7 +22,7 @@ const Resume = () => {
                 </div>
                 <div className="name-content">
                     <h1>Ani Saroian</h1> <br />
-                    <h3>Junior Full Stack Developer</h3><br />
+                    <h3>Junior Frontend Developer</h3><br />
                     <h4>I'm fast learner and quickly integrate into a team.</h4>
                 </div>
             </div>
@@ -38,7 +38,6 @@ const Resume = () => {
                     <FaGithub /> <a className = "link-text" target="_blank" href="https://github.com/Anisaroian" rel="noreferrer">www.github.com/Anisaroian </a><br />
                     <FaFacebook /> <a className = "link-text" target="_blank" href="https://www.facebook.com/ani.saroian22/" rel="noreferrer"> www.facebook.com/ani.saroian22 </a><br />
                     <FaInstagramSquare /> <a className = "link-text" target="_blank"  href="https://www.instagram.com/ani.saroian/" rel="noreferrer"> www.instagram.com/ani.saroian </a><br />
-
                 </div>
             </div>
             <div className="info-content">
@@ -54,8 +53,8 @@ const Resume = () => {
                 </div>
                 <div className="skills-content">
                     <h2>SKILLS</h2><br />
-                    <p><span>HTML</span> <span>CSS</span> <span>Bootstrap</span></p>
-                    <p><span>JavaScript</span> <span>ReactJS</span>  </p>
+                    <p><span>HTML</span> <span>CSS</span> <span>SASS/SCSS</span> <span>Bootstrap</span></p>
+                    <p><span>JavaScript</span> <span>jQuery</span> <span>ReactJS</span>  </p>
                     <p><span>PHP</span> <span>MySQL</span> <span>Laravel</span>  </p>
                     
                 </div>
