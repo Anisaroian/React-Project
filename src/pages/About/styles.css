@@ -4,8 +4,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 8% auto;
     font-family: 'Merienda One', cursive;
+    height: calc(100vh - 100px);
 }
 
 .info-part{
@@ -34,7 +34,7 @@
     border-radius: 50%;
     background-size: cover;
     background-repeat: no-repeat;
-    background-position:center ;
+    background-position: center ;
 }
 
 .image-part-background:hover {
@@ -47,7 +47,7 @@
     from {
 		transform: rotate(-360deg);
 	}
-	to{
+	to {
 		transform: rotate(360deg);
 	}
 }

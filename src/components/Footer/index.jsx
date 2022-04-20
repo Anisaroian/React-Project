@@ -16,15 +16,15 @@ const Footer = () => {
                       molestias.
                     </p>
                     <div className="mt-4">
-                    <a className="btn btn-outline-light btn-floating m-1" target="_blank" href="https://www.facebook.com/ani.saroian22/" role="button"
+                    <a className="btn btn-outline-light btn-floating m-1" target="_blank" rel="noreferrer" href="#" role="button"
                             ><i className="fab fa-facebook-f"></i></a>
-                          <a className="btn btn-outline-light btn-floating m-1" target="_blank" href="mailto:ani.saroian@gmail.com" role="button"
+                          <a className="btn btn-outline-light btn-floating m-1" target="_blank" rel="noreferrer" href="#" role="button"
                             ><i className="fab fa-google"></i></a>
-                          <a className="btn btn-outline-light btn-floating m-1" target="_blank" href="https://www.instagram.com/ani.saroian/" role="button"
+                          <a className="btn btn-outline-light btn-floating m-1" target="_blank" rel="noreferrer" href="#" role="button"
                             ><i className="fab fa-instagram"></i></a>
-                          <a className="btn btn-outline-light btn-floating m-1" target="_blank" href="https://www.linkedin.com/in/ani-saroian/" role="button"
+                          <a className="btn btn-outline-light btn-floating m-1" target="_blank" rel="noreferrer" href="#" role="button"
                             ><i className="fab fa-linkedin-in"></i></a>
-                          <a className="btn btn-outline-light btn-floating m-1" target="_blank" href="https://github.com/Anisaroian" role="button"
+                          <a className="btn btn-outline-light btn-floating m-1" target="_blank" rel="noreferrer" href="#" role="button"
                             ><i className="fab fa-github"></i></a>
                     </div>
                   </div>
@@ -37,17 +37,17 @@ const Footer = () => {
                         </a>
                       </li>
                       <li className="mb-3">
-                      <a target="_blank" href="mailto:ani.saroian@gmail.com" role="button">
-                        <span className="fa-li"><i className="fas fa-envelope"></i></span><span className="ms-2">ani.saroian@gmail.com</span></a>
+                      <a target="_blank" rel="noreferrer" href="mailto:" role="button">
+                        <span className="fa-li"><i className="fas fa-envelope"></i></span><span className="ms-2">E-mail address</span></a>
                       </li>
                       <li className="mb-3">
-                      <a target="_blank" href="https://www.linkedin.com/in/ani-saroian/" role="button">
-                        <span className="fa-li"><i className="fab fa-linkedin-in"></i></span><span className="ms-2">Ani Saroian</span>
+                      <a target="_blank" rel="noreferrer" href="#" role="button">
+                        <span className="fa-li"><i className="fab fa-linkedin-in"></i></span><span className="ms-2">XXX XXXXX</span>
                       </a>
                       </li>
                       <li clasclassNames="mb-3">
-                        <a href="tel:+37477885864">
-                          <span className="fa-li"><i className="fas fa-phone"></i></span><span className="ms-2">+374 (77) 88-58-64</span>
+                        <a href="tel:">
+                          <span className="fa-li"><i className="fas fa-phone"></i></span><span className="ms-2">+374 (xx) xxx xxx </span>
                         </a>
                       </li> 
                     </ul>

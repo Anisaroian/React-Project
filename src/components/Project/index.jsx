@@ -112,7 +112,7 @@ const Project = () => {
                 <h1 className="heading1">
                     Todo Project
                 </h1>
-                <Button
+                <Button variant="outline-dark"
                     onClick={handleOpenAddTaskModal}
                 >
                    <FaEdit /> Create Task 
