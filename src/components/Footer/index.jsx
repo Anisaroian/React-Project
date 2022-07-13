@@ -68,6 +68,7 @@ const Footer = () => {
               <div className="text-center p-2 text-dark" style={{fontFamily: "'Cinzel', serif"}}>
                 © 2022 Copyright:
               </div>
+              
             </footer>
     )
 }
